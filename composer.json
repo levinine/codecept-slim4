@@ -1,0 +1,46 @@
+{
+    "name": "levinine/codecept-slim4",
+    "version": "1.0.0",
+    "description": "Codeception Module for Slim 4 Microframework.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lazic",
+            "email": "t.lazic@levi9.com"
+        },
+        {
+            "name": "Basara",
+            "email": "a.basara@levi9.com"
+        },
+        {
+            "name": "Milosevic",
+            "email": "m.milosevic@levi9.com"
+        },
+        {
+            "name": "Premovic",
+            "email": "m.premovic@levi9.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Levinine\\CodeceptSlim4\\": "src/"}
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "php": ">=7.1",
+        "codeception/codeception": "^4.1",
+        "codeception/lib-innerbrowser": "^1.3",
+        "phpro/grumphp": "^0.20",
+        "psr/http-message": "^1.0",
+        "slim/psr7": "^1.0",
+        "slim/slim": "^4.0",
+        "symplify/easy-coding-standard": "^8.2",
+        "phpstan/phpstan": "^0.12"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
