@@ -12,7 +12,7 @@ composer require --dev levinine/codecept-slim4
 
 ## Config
 
-Or on your `tests/functional.suite.yml`
+Enable module with `depends`, eg in `tests/functional.suite.yml`
 
 ```yaml
 modules:

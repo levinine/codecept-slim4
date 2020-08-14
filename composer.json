@@ -1,6 +1,6 @@
 {
     "name": "levinine/codecept-slim4",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Codeception Module for Slim 4 Microframework.",
     "type": "library",
     "license": "MIT",
