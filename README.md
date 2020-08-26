@@ -12,6 +12,8 @@ composer require --dev levinine/codecept-slim4
 
 ## Config
 
+Make sure to have `config.test.yml` file containing your test configuration in the root of your Slim project.
+
 Enable module with `depends`, eg in `tests/functional.suite.yml`
 
 ```yaml

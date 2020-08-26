@@ -25,6 +25,7 @@ final class Slim4 extends Framework
 
     public function _initialize(): void
     {
+        $fileName = 'config.test.yml';
         require Configuration::projectDir() . 'public/index.php';
 
         if (isset($app)) {
